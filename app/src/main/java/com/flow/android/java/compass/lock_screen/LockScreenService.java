@@ -72,8 +72,7 @@ public class LockScreenService extends JobIntentService {
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT);
 
         Notification notification = builder.build();
-
-        // https://stackoverflow.com/questions/44658923/android-foreground-service-notification-not-showing/51908073
+        
         startForeground(1, notification);
     }
 
