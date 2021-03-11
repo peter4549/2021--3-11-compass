@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Compass</string>
+
+    <string name="notification_content_text">안정적인 실행을 위한 알림입니다.</string>
+</resources>
